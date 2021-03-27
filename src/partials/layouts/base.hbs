@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{html-metatags}}
+    
+    {{> resx.styles }}
+  </head>
+
+  <body>
+    <div  class="flex flex-col h-screen">
+      {{> header }}
+
+      {{> @partial-block }}
+
+      {{> footer }}
+    </div>
+    
+    {{> resx.scripts }}
+  </body>
+</html>

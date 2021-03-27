@@ -1,0 +1,19 @@
+areas:
+  - {
+    tag: eFFable,
+    note: 12 Jun 2021,
+    title: The SSR (Static Site Generator) we are speaking about,
+    content: 'Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.'
+  }
+  - {
+    tag: eFFable-cli,
+    note: 12 Jun 2021,
+    title: A useful cli to automatically generate projects to use with eFFable,
+    content: 'Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.'
+  }
+  - {
+    tag: eFFable-soc-showcase,
+    note: 12 Jun 2021,
+    title: This documentation site to use as an example,
+    content: 'Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.'
+  }

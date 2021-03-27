@@ -1,0 +1,39 @@
+{
+  "name": "effable-doc-showcase",
+  "description": "effable doc's showcase",
+  "version": "0.0.1",
+  "homepage": "",
+  "author": "sciulio sciulio@msn.com",
+  "repository": "",
+  "bugs": {},
+  "engines": {
+    "node": ">=4"
+  },
+  "license": "MIT",
+  "keywords": [
+    "effable",
+    "doc"
+  ],
+  "scripts": {
+    "debug-build": "cross-env NODE_ENV=development  node -r dotenv/config ./build.js",
+    "debug-watch": "npm-watch debug-build",
+    "build": "cross-env NODE_ENV=production  node -r dotenv/config ./build.js dotenv_config_path=./.env.production",
+    "start": "npm run debug-watch"
+  },
+  "watch": {
+    "debug-build": "./src/**/*.*"
+  },
+  "dependencies": {
+    "@sciulio/effable": "^1.10.2",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "npm-watch": "^0.9.0"
+  },
+  "effable": {
+    "cli-version": "1.4.0",
+    "template-name": "base-proj",
+    "template-version": "1.0.0"
+  }
+}

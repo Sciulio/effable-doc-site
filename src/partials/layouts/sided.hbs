@@ -1,0 +1,13 @@
+{{#>layouts.base}}
+  <div class="container mx-auto flex flex-wrap flex-grow flex-col md:flex-row md:flex-nowrap items-start p-5 h-full">
+    <div class="flex-none w-64 h-full">
+      {{> aside cssClasses='h-full' }}
+    </div>
+    <div class="flex-grow h-full">
+{{(routes-parent-root)/page/title}}
+
+      <h2>{{{metadata.page.title}}}</h2>
+      {{> @partial-block }}
+    </div>
+  </div>
+{{/layouts.base}}
