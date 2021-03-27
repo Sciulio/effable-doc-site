@@ -4,8 +4,13 @@
   "version": "0.0.1",
   "homepage": "",
   "author": "sciulio sciulio@msn.com",
-  "repository": "",
-  "bugs": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sciulio/effable-doc-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sciulio/effable-doc-site/issues"
+  },
   "engines": {
     "node": ">=4"
   },
