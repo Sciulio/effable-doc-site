@@ -3,7 +3,7 @@
     {{> components.logo }}
     <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
       {{#each (routes-each routes 'page.order')}}
-        <a class="mr-5 hover:text-gray-900 bg-transparent {{route-isCurrent 'bg-gray-200' url}}"
+        <a class="mr-5 hover:text-gray-900 bg-transparent {{route-isRelative 'font-bold text-green-500' url}}"
           {{route-isCurrent 'aria-current="page"' url}}
           href="{{location}}">
           {{page.name}}

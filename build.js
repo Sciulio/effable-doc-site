@@ -63,6 +63,20 @@ build({
 
       args.forEach(prop => delete root[prop]);
     });
+    
+    hbs.registerHelper('get', function (...args) {
+      args.pop();
+      let [item, ...props] = args;
+      console.log('get-------------------------')
+      props = props.reduce((list, prop) => ([
+        ...list,
+        ...prop.split('.')
+      ]), []);
+      console.log(props.reduce((result, prop) => result[prop], item))
+      console.log(props)
+
+      return props.reduce((result, prop) => result[prop], item);
+    });
 
     hbs.registerHelper('JSON', function (value) {
       return new hbs.SafeString(`

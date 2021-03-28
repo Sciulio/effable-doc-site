@@ -29,7 +29,7 @@
     "debug-build": "./src/**/*.*"
   },
   "dependencies": {
-    "@sciulio/effable": "^1.10.2",
+    "@sciulio/effable": "^1.10.5",
     "cross-env": "^7.0.3",
     "dotenv": "^8.2.0"
   },
