@@ -5,11 +5,10 @@ description: Static site made with effable and generated with effable-cli
 priority: 1.0
 
 page:
-  name: Basics
-  title: Basic Features
-  order: 20
+  name: Advanced
+  title: Advanced Features
+  order: 40
   hasChildren: true
 ---
-### Basics
-
-This is the basic part!
+### Advanced
+Hy, how are you?

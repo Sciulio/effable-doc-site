@@ -6,4 +6,10 @@ type: 'news'
   <article class="prose lg:prose-xl prose-indigo">
     {{{body}}}
   </article>
+  
+  {{#each (data-each (get @root.data route.key) 'page.order')}}
+    <article id="{{key}}" class="prose lg:prose-lg prose-indigo">
+      {{{body}}}
+    </article>
+  {{/each}}
 {{/layouts.sided}}

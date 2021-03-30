@@ -22,7 +22,8 @@
     <p>data-each: {{JSON (data-each @root.data 'structure')}}</p>
     <p>data-extract: {{JSON (extract-many @root.data key)}}</p> --}}
       {{#each (data-each (get @root.data key) 'page.order')}}
-        <a class="{{@childNavItemClass}} pl-8" href="{{../location}}">{{page.name}}</a>
+        <a class="{{@childNavItemClass}} pl-8"
+          href="{{../location}}#{{key}}">{{page.name}}</a>
       {{/each}}
     {{/if}}
     {{!-- {{> aside }} --}}

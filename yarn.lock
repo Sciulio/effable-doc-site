@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@sciulio/effable@^1.10.5":
-  version "1.10.5"
-  resolved "https://registry.yarnpkg.com/@sciulio/effable/-/effable-1.10.5.tgz#72c6ddabc3afaf8a56e3ac72a18a5d4f07caef8d"
-  integrity sha512-Nd4J0/yUfg4w3gT27FaJAou82tzAY07UWUq25sQvTOwt6iEu64wT3Cakcjjophgmt7+OnPcABp9qZERnsWC1fw==
+"@sciulio/effable@^1.11.3":
+  version "1.11.3"
+  resolved "https://registry.yarnpkg.com/@sciulio/effable/-/effable-1.11.3.tgz#8fc6abfe6d312f2b421b058f59054e47b3f16e7e"
+  integrity sha512-Qpdsbs6A3Ohac5AScBVGi4BjlNkkJxooXmzZnCRzmWIUWVDC2djkMZCpt6T6Ai3RA9y6YB5XG0vnZAlL5+qoDw==
   dependencies:
     async-extensions "^0.3.1"
     fs-extra "^9.0.1"
@@ -58,9 +58,9 @@
   integrity sha512-fZQQafSREFyuZcdWFAExYjBiCL7AUCdgsk80iO0q4yihYYdcIiH28CcuPTGFgLOCC8RlW49GSQxdHwZP+I7CNg==
 
 "@types/node@*", "@types/node@^14.14.28":
-  version "14.14.35"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.35.tgz#42c953a4e2b18ab931f72477e7012172f4ffa313"
-  integrity sha512-Lt+wj8NVPx0zUmUwumiVXapmaLUcAk3yPuHCFVXras9k5VT9TdhJqKqGVUQCD60OTMCl0qxJ57OiTL0Mic3Iag==
+  version "14.14.37"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.37.tgz#a3dd8da4eb84a996c36e331df98d82abd76b516e"
+  integrity sha512-XYmBiy+ohOR4Lh5jE379fV2IU+6Jn4g5qASinhitfyO71b/sCo6MKsMLF5tc7Zf2CE8hViVQyYSobJNke8OvUw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -1452,9 +1452,9 @@ uc.micro@^1.0.1, uc.micro@^1.0.5:
   integrity sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==
 
 uglify-js@^3.1.4:
-  version "3.13.1"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.13.1.tgz#2749d4b8b5b7d67460b4a418023ff73c3fefa60a"
-  integrity sha512-EWhx3fHy3M9JbaeTnO+rEqzCe1wtyQClv6q3YWq0voOj4E+bMZBErVS1GAHPDiRGONYq34M1/d8KuQMgvi6Gjw==
+  version "3.13.3"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.13.3.tgz#ce72a1ad154348ea2af61f50933c76cc8802276e"
+  integrity sha512-otIc7O9LyxpUcQoXzj2hL4LPWKklO6LJWoJUzNa8A17Xgi4fOeDC8FBDOLHnC/Slo1CQgsZMcM6as0M76BZaig==
 
 undefsafe@^2.0.3:
   version "2.0.3"

@@ -9,5 +9,5 @@ page:
   title: Views
   order: 2
 ---
-### Code Structure
-Ciao
+### View
+Bye

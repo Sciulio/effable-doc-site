@@ -5,11 +5,9 @@ description: Static site made with effable and generated with effable-cli
 priority: 1.0
 
 page:
-  name: Basics
-  title: Basic Features
-  order: 20
-  hasChildren: true
+  name: Structure
+  title: Code Structure
+  order: 1
 ---
-### Basics
-
-This is the basic part!
+### Code Structure
+Ciao 2
